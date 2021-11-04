@@ -1,0 +1,5 @@
+com\clean\rh\configuration\UseCaseConfiguration.class
+com\clean\rh\configuration\EndpointConfiguration.class
+com\clean\rh\configuration\DatabaseDataProviderConfiguration.class
+com\clean\rh\configuration\DatasourceConfiguration.class
+com\clean\rh\Application.class

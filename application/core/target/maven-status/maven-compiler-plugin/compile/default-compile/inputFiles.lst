@@ -1,0 +1,6 @@
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\core\src\main\java\com\clean\rh\entity\Personne.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\core\src\main\java\com\clean\rh\usercase\personne\PersonneRepository.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\core\src\main\java\com\clean\rh\usercase\personne\GetPersonneUserCase.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\core\src\main\java\com\clean\rh\usercase\personne\exception\PersonneNonTrouveException.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\core\src\main\java\com\clean\rh\usercase\personne\CreerPersonneUserCase.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\core\src\main\java\com\clean\rh\usercase\personne\exception\PersonneNoCreeException.java
