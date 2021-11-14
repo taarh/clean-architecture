@@ -5,6 +5,6 @@ et les couche BD, Rest api , les jobs qui sont au dessus de la couche core .
 
 # Avantage
 
-#Technologies
+# Technologies
 
 Java 8, Kubernetes, Docker, Kafka
