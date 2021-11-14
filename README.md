@@ -4,3 +4,7 @@ Clean architecture est un style d'architecture qui permet une séparation fine d
 et les couche BD, Rest api , les jobs qui sont au dessus de la couche core .
 
 # Avantage
+
+# Technologies
+
+Java 8, Kubernetes, Docker, Kafka
