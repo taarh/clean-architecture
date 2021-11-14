@@ -1,0 +1,4 @@
+com\tracker\usercase\emettrecoordonneesgps\EmettreCoordonneesGPSUserCaseTest.class
+com\tracker\usercase\personne\RecupererPersonneUserCaseTest.class
+com\tracker\usercase\personne\CreerPersonneUserCaseTest.class
+com\tracker\usercase\recuperercoordonneesgps\RecupererCoordonneesGPSUserCaseTest.class

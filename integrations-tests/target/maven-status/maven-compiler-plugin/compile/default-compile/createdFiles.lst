@@ -1,3 +1,3 @@
-com\clean\rh\integration\database\DatabaseIntegrationTest.class
-com\clean\rh\integration\rest\RestIntegrationTest.class
-com\clean\rh\integration\middleware\MiddlewarIntegrationTest.class
+com\tracker\integration\database\DatabaseIntegrationTest.class
+com\tracker\integration\rest\RestIntegrationTest.class
+com\tracker\integration\middleware\MiddlewarIntegrationTest.class

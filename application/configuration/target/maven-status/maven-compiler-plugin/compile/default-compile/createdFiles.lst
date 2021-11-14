@@ -1,7 +1,7 @@
-com\clean\rh\configuration\KafkaDataProviderConfiguration.class
-com\clean\rh\configuration\DatasourceConfiguration.class
-com\clean\rh\configuration\UseCaseConfiguration.class
-com\clean\rh\configuration\EndpointConfiguration.class
-com\clean\rh\configuration\DatabaseDataProviderConfiguration.class
-com\clean\rh\Application.class
-com\clean\rh\configuration\KafkaConfiguration.class
+com\tracker\configuration\DatabaseDataProviderConfiguration.class
+com\tracker\Application.class
+com\tracker\configuration\UseCaseConfiguration.class
+com\tracker\configuration\DatasourceConfiguration.class
+com\tracker\configuration\KafkaConfiguration.class
+com\tracker\configuration\KafkaDataProviderConfiguration.class
+com\tracker\configuration\EndpointConfiguration.class

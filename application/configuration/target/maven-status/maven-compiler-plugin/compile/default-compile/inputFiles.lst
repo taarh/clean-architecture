@@ -1,7 +1,7 @@
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\clean\rh\configuration\KafkaConfiguration.java
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\clean\rh\configuration\KafkaDataProviderConfiguration.java
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\clean\rh\Application.java
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\clean\rh\configuration\DatabaseDataProviderConfiguration.java
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\clean\rh\configuration\EndpointConfiguration.java
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\clean\rh\configuration\DatasourceConfiguration.java
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\clean\rh\configuration\UseCaseConfiguration.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\tracker\configuration\DatasourceConfiguration.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\tracker\configuration\DatabaseDataProviderConfiguration.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\tracker\configuration\KafkaDataProviderConfiguration.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\tracker\configuration\EndpointConfiguration.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\tracker\configuration\KafkaConfiguration.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\tracker\Application.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\configuration\src\main\java\com\tracker\configuration\UseCaseConfiguration.java

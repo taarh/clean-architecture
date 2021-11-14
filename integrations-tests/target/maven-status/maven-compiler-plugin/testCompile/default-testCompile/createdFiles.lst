@@ -1,0 +1,5 @@
+com\tracker\integration\database\personne\PersonneDatabaseIntegrationTest.class
+com\tracker\integration\rest\recuperercoordonneesgps\CoordonneesGpsRestIntegrationTest.class
+com\tracker\integration\middleware\ProducteurPositionGPSKafkaTest$1.class
+com\tracker\integration\middleware\ProducteurPositionGPSKafkaTest.class
+com\tracker\integration\rest\personne\GetPersonneRestIntegrationTest.class
