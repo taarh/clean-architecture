@@ -1,3 +1,9 @@
 com\clean\rh\entrypoints\rest\personne\CreerPersonneEndpoint.class
-com\clean\rh\entrypoints\rest\personne\GetPersonneEndpoint.class
+com\clean\rh\entrypoints\rest\exception\ErreurReponse.class
+com\clean\rh\entrypoints\rest\recuperercoordonneesgps\CoordonneesGpsPresenter.class
+com\clean\rh\entrypoints\rest\exception\NonTrouveException.class
+com\clean\rh\entrypoints\rest\recuperercoordonneesgps\EmettreCoordonneesGpsEndpoint.class
+com\clean\rh\entrypoints\rest\exception\GestionnaireException.class
+com\clean\rh\entrypoints\rest\recuperercoordonneesgps\RecupererCoordonneesGpsEndpoint.class
+com\clean\rh\entrypoints\rest\personne\RecupererPersonneEndpoint.class
 com\clean\rh\entrypoints\rest\personne\PersonnePresenter.class

@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2021-11-09T10:45:07Z"
+  labels:
+    app: clean-archit
+  name: clean-archit
+  namespace: default
+  resourceVersion: "2153"
+  uid: ca585262-bc52-412a-920a-da1b46c937c6
+spec:
+  clusterIP: 10.100.187.40
+  clusterIPs:
+  - 10.100.187.40
+  externalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 31664
+    port: 8000
+    protocol: TCP
+    targetPort: 8000
+  selector:
+    app: clean-archit
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer:
+    ingress:
+    - hostname: localhost

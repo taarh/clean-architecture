@@ -1,12 +1,12 @@
 package com.clean.rh.entrypoints.rest.personne;
 
 import com.clean.rh.entity.Personne;
+import com.clean.rh.entrypoints.rest.exception.NonTrouveException;
 import com.clean.rh.usercase.personne.RecupererPersonneUserCase;
+import com.clean.rh.usercase.personne.exception.PersonneNonTrouveException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 @RestController
 public class RecupererPersonneEndpoint {
@@ -23,8 +23,13 @@ public class RecupererPersonneEndpoint {
 
     @GetMapping(value = API_PATH + "/{email}")
     public PersonnePresenter recupererPersonneParEmail(@PathVariable String email) {
-        LOGGER.info(" sauvguarder la personne : {}");
-        Personne personne = recupererPersonneUserCase.recupererPersonneParEmail(email);
-        return PersonnePresenter.convertirEnPersonnePresenter(personne);
+        LOGGER.info("recuperer Personne par mail  : {}",email);
+        try {
+            Personne personne = recupererPersonneUserCase.recupererPersonneParEmail(email);
+            return PersonnePresenter.convertirEnPersonnePresenter(personne);
+        }catch(PersonneNonTrouveException e){
+            LOGGER.info("Aucune personne trouvé avec ce mail",email);
+            throw new NonTrouveException("Personne non trouvé");
+        }
     }
 }

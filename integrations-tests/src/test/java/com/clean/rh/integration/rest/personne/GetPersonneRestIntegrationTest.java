@@ -5,6 +5,7 @@ import com.clean.rh.entrypoints.rest.personne.CreerPersonneEndpoint;
 import com.clean.rh.entrypoints.rest.personne.RecupererPersonneEndpoint;
 import com.clean.rh.integration.rest.RestIntegrationTest;
 import com.clean.rh.usercase.personne.RecupererPersonneUserCase;
+import com.clean.rh.usercase.personne.exception.PersonneNonTrouveException;
 import org.json.JSONException;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -19,6 +20,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
 
@@ -37,15 +39,24 @@ public class GetPersonneRestIntegrationTest extends RestIntegrationTest {
     int responseStatusCode;
 
     @Test
-    public void etantDonneUnePersonneParMail() throws Exception {
+    public void personneEstRecupere() throws Exception {
         etantDonneUnePersonne();
 
-        quandGetPersonneApiEstAppele();
+        quandRecupererPersonneApiEstAppele();
 
         personneEstRetourne();
     }
 
-    public void quandGetPersonneApiEstAppele() throws Exception {
+    @Test
+    public void retourner404QuandPersonneNonTrouve() throws Exception {
+        etantDonneeUnePersonneNoTrouve();
+
+        quandRecupererPersonneApiEstAppele();
+
+        alorsReturner404();
+    }
+
+    public void quandRecupererPersonneApiEstAppele() throws Exception {
         MvcResult mvcResult = mockMvc.perform(get(RecupererPersonneEndpoint.API_PATH + "/{email}", EMAIL)).andReturn();
         responseContent = mvcResult.getResponse().getContentAsString();
         responseStatusCode = mvcResult.getResponse().getStatus();
@@ -73,5 +84,12 @@ public class GetPersonneRestIntegrationTest extends RestIntegrationTest {
         JSONAssert.assertEquals(expectedResponse, responseContent, false);
     }
 
+    private void etantDonneeUnePersonneNoTrouve() {
+        when(recupererPersonneUserCase.recupererPersonneParEmail(EMAIL)).thenThrow(new PersonneNonTrouveException());
+    }
+
+    private void alorsReturner404() {
+        assertThat(responseStatusCode).isEqualTo(404);
+    }
 
 }

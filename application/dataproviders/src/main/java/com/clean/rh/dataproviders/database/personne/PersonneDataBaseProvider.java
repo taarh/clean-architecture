@@ -6,6 +6,7 @@ import com.clean.rh.usercase.personne.PersonneRepository;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 
+import javax.swing.text.Position;
 import java.util.Optional;
 
 public class PersonneDataBaseProvider implements PersonneRepository {
@@ -32,7 +33,6 @@ public class PersonneDataBaseProvider implements PersonneRepository {
     public Optional<Personne> recupererPersonneByEmail(String email) {
 
         String sql = "SELECT id, nom, prenom, age, email FROM clean_architecture.PERSONNE WHERE email = ?";
-
         try {
             Personne personne = jdbcTemplate.queryForObject(sql, new PersonneRowMapper(), email);
             return Optional.of(personne);

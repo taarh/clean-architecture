@@ -1,2 +1,9 @@
+com\clean\rh\dataproviders\database\positionGps\mapper\PositionGpsRowMapper.class
 com\clean\rh\dataproviders\database\personne\mapper\PersonneRowMapper.class
+com\clean\rh\dataproviders\middleware\ProducteurPositionGPSKafka$1.class
 com\clean\rh\dataproviders\database\personne\PersonneDataBaseProvider.class
+com\clean\rh\dataproviders\database\positionGps\PositionGpsDataBaseProvider.class
+com\clean\rh\dataproviders\middleware\ProducteurPositionGPSKafka.class
+com\clean\rh\dataproviders\middleware\ConsommateurPositionGps.class
+com\clean\rh\dataproviders\middleware\converter\PositionGpsConverter.class
+com\clean\rh\dataproviders\middleware\entities\PositionGpsK.class

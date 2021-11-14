@@ -1,3 +1,9 @@
-C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\personne\GetPersonneEndpoint.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\recuperercoordonneesgps\RecupererCoordonneesGpsEndpoint.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\exception\GestionnaireException.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\personne\RecupererPersonneEndpoint.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\recuperercoordonneesgps\CoordonneesGpsPresenter.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\exception\NonTrouveException.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\exception\ErreurReponse.java
 C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\personne\PersonnePresenter.java
 C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\personne\CreerPersonneEndpoint.java
+C:\Users\TaoufikArhalai\Documents\clean-architecture\application\entrypoints\src\main\java\com\clean\rh\entrypoints\rest\recuperercoordonneesgps\EmettreCoordonneesGpsEndpoint.java

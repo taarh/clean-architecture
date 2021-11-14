@@ -12,6 +12,10 @@
 
     <artifactId>configuration</artifactId>
     <version>${revision}</version>
+    <properties>
+        <start-class>com.clean.rh.Application</start-class>
+
+    </properties>
 
 <dependencies>
     <dependency>
@@ -27,6 +31,26 @@
     </dependency>
 
 
-
 </dependencies>
+
+    <build>
+        <pluginManagement>
+        <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>${spring.version}</version>
+            <executions>
+                <execution>
+                    <configuration>
+                        <mainClass>com.clean.rh.Application</mainClass>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+        </pluginManagement>
+
+    </build>
+
 </project>

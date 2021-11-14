@@ -21,5 +21,15 @@
       <option name="name" value="http://repo.bodar.com/" />
       <option name="url" value="http://repo.bodar.com/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo.bodar.com/" />
+      <option name="name" value="repo.bodar.com/" />
+      <option name="url" value="http://repo.bodar.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo.bodar.com" />
+      <option name="name" value="repo.bodar.com" />
+      <option name="url" value="http://repo.bodar.com/" />
+    </remote-repository>
   </component>
 </project>
